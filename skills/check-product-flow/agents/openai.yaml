@@ -1,0 +1,13 @@
+interface:
+  display_name: 产品流程完整性检查
+  short_description: 逐步骤检查进入、提交、跳过、恢复、重试、重复操作与后台状态
+  default_prompt: 使用 $check-product-flow 检查这个产品流程，补全异常路径、恢复规则和后台记录。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
